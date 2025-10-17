@@ -1,43 +1,20 @@
-# 🌐 Yash Pandit - Portfolio Website
+Portfolio
 
 A clean, privacy-focused portfolio website built with Next.js, React, and Tailwind CSS. This portfolio showcases my projects, skills, and experience as a full-stack developer.
+Features
+Privacy-First**: No tracking, no analytics, no cookies
+Responsive Design**: Works seamlessly on all devices
+Fast Performance**: Optimized with Next.js App Router
+Smooth Animations**: Subtle transitions with Framer Motion
+Resume Viewer**: Embedded PDF viewer with download option
+SEO Optimized**: Meta tags and semantic HTML
+Accessible**: WCAG compliant with proper ARIA labels
 
-[![Live Demo](https://img.shields.io/badge/demo-live-success)](https://your-portfolio-url.vercel.app)
-[![Next.js](https://img.shields.io/badge/Next.js-15.5-black)](https://nextjs.org/)
-[![React](https://img.shields.io/badge/React-18-blue)](https://reactjs.org/)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+Live Demo
 
-## ✨ Features
+Visit the live site: https://portfolio-one-gilt-47.vercel.app/
 
-- **Privacy-First**: No tracking, no analytics, no cookies
-- **Responsive Design**: Works seamlessly on all devices
-- **Fast Performance**: Optimized with Next.js App Router
-- **Smooth Animations**: Subtle transitions with Framer Motion
-- **Resume Viewer**: Embedded PDF viewer with download option
-- **SEO Optimized**: Meta tags and semantic HTML
-- **Accessible**: WCAG compliant with proper ARIA labels
-
-## 🚀 Live Demo
-
-Visit the live site: [yashpandit.dev](https://your-portfolio-url.vercel.app)
-
-## 📸 Screenshots
-
-<details>
-<summary>View Screenshots</summary>
-
-### Home Page
-![Home Page](screenshots/home.png)
-
-### Projects Section
-![Projects](screenshots/projects.png)
-
-### Resume Page
-![Resume](screenshots/resume.png)
-
-</details>
-
-## 🛠️ Built With
+#Built With
 
 - **Framework**: [Next.js 15](https://nextjs.org/) - React framework with App Router
 - **UI Library**: [React 18](https://reactjs.org/) - Component-based UI
