@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Menu, X, Github, Linkedin, Mail, Download, ExternalLink, Code2, Database, Server } from 'lucide-react';
+import { Menu, X, Github, Linkedin, Mail, Download, Code2, Database, Server } from 'lucide-react';
 
 // Animation variants
 const fadeInUp = {
@@ -19,8 +19,14 @@ const staggerContainer = {
   }
 };
 
+// Props type for Navbar
+type NavbarProps = {
+  currentPage: string;
+  setCurrentPage: (page: string) => void;
+};
+
 // Navbar Component
-const Navbar = ({ currentPage, setCurrentPage }) => {
+const Navbar: React.FC<NavbarProps> = ({ currentPage, setCurrentPage }) => {
   const [isOpen, setIsOpen] = useState(false);
   
   const navItems = ['home', 'about', 'projects', 'resume', 'contact'];
@@ -30,12 +36,12 @@ const Navbar = ({ currentPage, setCurrentPage }) => {
       <div className="max-w-6xl mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
           <motion.div 
-  initial={{ opacity: 0 }}
-  animate={{ opacity: 1 }}
-  className="text-2xl font-bold text-[#0B3954]"
->
-  YP
-</motion.div>
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            className="text-2xl font-bold text-[#0B3954]"
+          >
+            YP
+          </motion.div>
           
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8">
@@ -104,7 +110,7 @@ const Footer = () => (
 );
 
 // Section Title Component
-const SectionTitle = ({ children }) => (
+const SectionTitle = ({ children }: { children: React.ReactNode }) => (
   <motion.h2 
     {...fadeInUp}
     className="text-4xl font-bold text-[#0B3954] mb-8 text-center"
@@ -114,7 +120,7 @@ const SectionTitle = ({ children }) => (
 );
 
 // Project Card Component
-const ProjectCard = ({ title, description, tech }) => (
+const ProjectCard = ({ title, description, tech }: { title: string; description: string; tech: string[] }) => (
   <motion.div
     {...fadeInUp}
     whileHover={{ y: -5 }}
@@ -145,12 +151,12 @@ const HomePage = () => (
   >
     <div className="text-center max-w-4xl px-6">
       <motion.div {...fadeInUp} className="mb-6">
-  <img 
-    src="/logo.png" 
-    alt="Yash Pandit" 
-    className="w-32 h-32 mx-auto mb-6 rounded-full object-cover border-4 border-[#0B3954]"
-  />
-</motion.div>
+        <img 
+          src="/logo.png" 
+          alt="Yash Pandit" 
+          className="w-32 h-32 mx-auto mb-6 rounded-full object-cover border-4 border-[#0B3954]"
+        />
+      </motion.div>
       
       <motion.h1 {...fadeInUp} className="text-5xl md:text-6xl font-bold text-[#0B3954] mb-4">
         Yash Pandit
