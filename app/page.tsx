@@ -152,7 +152,7 @@ const HomePage = () => (
     <div className="text-center max-w-4xl px-6">
       <motion.div {...fadeInUp} className="mb-6">
         <img 
-          src="/logo.png" 
+          src="/icon.png" 
           alt="Yash Pandit" 
           className="w-32 h-32 mx-auto mb-6 rounded-full object-cover border-4 border-[#0B3954]"
         />
