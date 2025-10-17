@@ -1,6 +1,7 @@
-node_modules
-.next
-.env.local
+echo "node_modules/
+/.next/
+/.env.local
 .env
 .DS_Store
 *.log
+.vscode/" > .gitignore
