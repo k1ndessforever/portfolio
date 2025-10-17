@@ -179,7 +179,7 @@ const HomePage = () => (
           Get in Touch
         </a>
         <a 
-          href="https://github.com/k1ndnessforever"
+          href="https://github.com/k1ndessforever"
           target="_blank"
           rel="noopener noreferrer"
           className="px-6 py-3 border-2 border-[#0B3954] text-[#0B3954] rounded-lg hover:bg-[#0B3954] hover:text-white transition-colors flex items-center gap-2"
