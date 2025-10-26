@@ -167,7 +167,7 @@ const HomePage = () => (
       </motion.p>
       
       <motion.p {...fadeInUp} className="text-lg text-gray-500 mb-8 max-w-2xl mx-auto">
-        I build backend and full-stack applications focused on reliability & privacy.
+       I keep things simple and maintainable. I'm early in my career and learning with every project.
       </motion.p>
       
       <motion.div {...fadeInUp} className="flex gap-4 justify-center">
