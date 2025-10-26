@@ -199,13 +199,14 @@ const AboutPage = () => (
     
     <motion.div {...fadeInUp} className="bg-white p-8 rounded-lg shadow-md mb-8">
       <p className="text-lg text-gray-700 mb-6">
-        I'm a full-stack developer passionate about building reliable, privacy-respecting applications. 
-        My focus is on creating clean, maintainable code that solves real problems.
+       Full-stack developer and QA tester from Maharashtra, India.
+
+I build backends with Node.js and Express, frontends with React and Next.js, and test web applications manually. I also do API testing using Postman.
+
       </p>
       
       <p className="text-lg text-gray-700 mb-6">
-        I specialize in backend development with Node.js and Express, paired with modern frontend 
-        frameworks like React and Next.js. I believe in simplicity over complexity and privacy over surveillance.
+      I focus on reliable code and clear bug documentation. Still learning and growing with each project.
       </p>
     </motion.div>
     
