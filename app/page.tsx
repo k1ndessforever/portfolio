@@ -163,7 +163,7 @@ const HomePage = () => (
       </motion.h1>
       
       <motion.p {...fadeInUp} className="text-xl text-gray-600 mb-6">
-        Full Stack Developer | Node.js • React • NeonPostgres
+        Full Stack Developer & QA Tester | Node.js, React, API Testing
       </motion.p>
       
       <motion.p {...fadeInUp} className="text-lg text-gray-500 mb-8 max-w-2xl mx-auto">
