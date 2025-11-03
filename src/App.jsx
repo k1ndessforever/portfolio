@@ -13,7 +13,7 @@ const CONFIG = {
   social: {
     github: 'https://github.com/k1ndnessforever',
     linkedin: 'https://linkedin.com/in/yash-pandit-73b232270/',
-    twitter: 'https://twitter.com/yourusername',
+    twitter: 'https://x.com/kinderworldfp',
     email: 'yash.pandit.dev01@gmail.com'
   }
 };
