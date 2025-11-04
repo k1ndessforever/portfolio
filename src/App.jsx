@@ -12,7 +12,7 @@ const CONFIG = {
   about: 'Learning to build secure web applications through hands-on projects and experimentation. Focused on understanding both how to create and how to protect modern software. Every bug is a lesson, every vulnerability is a puzzle to solve.',
   social: {
     github: 'https://github.com/k1ndnessforever',
-    linkedin: 'https://linkedin.com/in/yash-pandit-73b232270/',
+    linkedin: 'https://linkedin.com/in/yashpandit1610',
     twitter: 'https://x.com/kinderworldfp',
     email: 'yash.pandit.dev01@gmail.com'
   }
